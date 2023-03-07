@@ -1,0 +1,91 @@
+Table name: consumer_index_cleaned.csv 
+
+Column names:   Date (Month) C.I. Region (C.I.) (Canada Only)  \
+0        1979-11-01                      Canada   
+1        1979-12-01                      Canada   
+2        1980-01-01                      Canada   
+
+                                     Measures (C.I.) Measure Baseline (C.I.)  \
+0  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+1  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+2  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+
+   Consumer Index  
+0             9.3  
+1             9.4  
+2             9.3   
+
+
+Table name: housing_price_index_pivot_cleaned.csv 
+
+Column names:   Date (Month) H.P.I.  Property Type (H.P.I.)  H.P.I.
+0          1981-01-01  Total (House And Land)    38.2
+1          1981-02-01  Total (House And Land)    38.7
+2          1981-03-01  Total (House And Land)    39.3 
+
+
+Table name: monthly_earnings_pivot_cleaned.csv 
+
+Column names:   Date (Month) M.E. Province (inc. Canada) (M.E.)  Monthly Earnings
+0        2001-01-01                       Alberta       2969.534286
+1        2001-02-01                       Alberta       2682.080000
+2        2001-03-01                       Alberta       2960.455714 
+
+
+Table name: office_realestate_index_cleaned.csv 
+
+Column names:   Date (Quarter) O.R.I.                Region(O.R.I.) (city prov)  \
+0            1981-01-01  Seven census metropolitan area composite   
+1            1981-01-01  Seven census metropolitan area composite   
+2            1981-01-01  Seven census metropolitan area composite   
+
+  Property Type(O.R.I.) Measure Baseline (O.R.I.)  O.R.I.  
+0                Office           Index, 2002=100    58.4  
+1             Warehouse           Index, 2002=100    53.3  
+2       Shopping centre           Index, 2002=100    59.3   
+
+
+Table name: real_estate_numbers_cleaned.csv 
+
+Column names:   Date (Year) R.E.N. Province (R.E.N.) (inc. Canada)           Dguid  \
+0         1955-01-01                          Canada  2016A000011124   
+1         1955-01-01                          Canada  2016A000011124   
+2         1955-01-01                          Canada  2016A000011124   
+
+  Housing Estimates (R.E.N)     Type Of Unit    Uom  Uom Id Scalar Factor  \
+0            Housing starts      Total units  Units     300        units    
+1            Housing starts  Single-detached  Units     300        units    
+2            Housing starts        Multiples  Units     300        units    
+
+   Scalar Id   Vector Coordinate  Real Estate Number  Decimals  
+0          0  v730579      1.1.1              138276         0  
+1          0  v730524      1.1.2               99003         0  
+2          0  v730568      1.1.4               39273         0   
+
+
+Table name: real_estate_prices_all_pivot_cleaned_benchmark.csv 
+
+Column names:   Date (Month) R.E.P. Benchmark Region (R.E.P)(inc. Aggregate) Benchmark  \
+0                    2005-01-01                                Aggregate   
+1                    2005-02-01                                Aggregate   
+2                    2005-03-01                                Aggregate   
+
+  Housing Type (R.E.P.) Benchmark  Real Estate Price Benchmark  
+0                       Apartment                     190600.0  
+1                       Apartment                     192300.0  
+2                       Apartment                     193200.0   
+
+
+Table name: real_estate_prices_all_pivot_cleaned_hpi.csv 
+
+Column names:   Date (Month) R.E.P. HPI Region (R.E.P)(inc. Aggregate) HPI  \
+0              2005-01-01                          Aggregate   
+1              2005-02-01                          Aggregate   
+2              2005-03-01                          Aggregate   
+
+  Housing Type (R.E.P.) HPI  Real Estate Price HPI  
+0                 Apartment                  100.0  
+1                 Apartment                  100.9  
+2                 Apartment                  101.4   
+
+

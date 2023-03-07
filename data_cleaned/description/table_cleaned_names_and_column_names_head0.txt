@@ -1,0 +1,49 @@
+Table name: consumer_index_cleaned.csv 
+
+Column names: Empty DataFrame
+Columns: [Date (Month) C.I., Region (C.I.) (Canada Only), Measures (C.I.), Measure Baseline (C.I.), Consumer Index]
+Index: [] 
+
+
+Table name: housing_price_index_pivot_cleaned.csv 
+
+Column names: Empty DataFrame
+Columns: [Date (Month) H.P.I., Property Type (H.P.I.), H.P.I.]
+Index: [] 
+
+
+Table name: monthly_earnings_pivot_cleaned.csv 
+
+Column names: Empty DataFrame
+Columns: [Date (Month) M.E., Province (inc. Canada) (M.E.), Monthly Earnings]
+Index: [] 
+
+
+Table name: office_realestate_index_cleaned.csv 
+
+Column names: Empty DataFrame
+Columns: [Date (Quarter) O.R.I., Region(O.R.I.) (city prov), Property Type(O.R.I.), Measure Baseline (O.R.I.), O.R.I.]
+Index: [] 
+
+
+Table name: real_estate_numbers_cleaned.csv 
+
+Column names: Empty DataFrame
+Columns: [Date (Year) R.E.N., Province (R.E.N.) (inc. Canada), Dguid, Housing Estimates (R.E.N), Type Of Unit, Uom, Uom Id, Scalar Factor, Scalar Id, Vector, Coordinate, Real Estate Number, Decimals]
+Index: [] 
+
+
+Table name: real_estate_prices_all_pivot_cleaned_benchmark.csv 
+
+Column names: Empty DataFrame
+Columns: [Date (Month) R.E.P. Benchmark, Region (R.E.P)(inc. Aggregate) Benchmark, Housing Type (R.E.P.) Benchmark, Real Estate Price Benchmark]
+Index: [] 
+
+
+Table name: real_estate_prices_all_pivot_cleaned_hpi.csv 
+
+Column names: Empty DataFrame
+Columns: [Date (Month) R.E.P. HPI, Region (R.E.P)(inc. Aggregate) HPI, Housing Type (R.E.P.) HPI, Real Estate Price HPI]
+Index: [] 
+
+

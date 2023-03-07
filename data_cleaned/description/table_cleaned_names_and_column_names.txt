@@ -1,0 +1,171 @@
+Table name: consumer_index_cleaned.csv 
+
+Column names:          Date  Region                                           Measures  \
+0  1979-11-01  Canada  Consumer Price Index (CPI) inversely weighted ...   
+1  1979-12-01  Canada  Consumer Price Index (CPI) inversely weighted ...   
+2  1980-01-01  Canada  Consumer Price Index (CPI) inversely weighted ...   
+3  1980-02-01  Canada  Consumer Price Index (CPI) inversely weighted ...   
+4  1980-03-01  Canada  Consumer Price Index (CPI) inversely weighted ...   
+5  1980-04-01  Canada  Consumer Price Index (CPI) inversely weighted ...   
+6  1980-05-01  Canada  Consumer Price Index (CPI) inversely weighted ...   
+7  1980-06-01  Canada  Consumer Price Index (CPI) inversely weighted ...   
+8  1980-07-01  Canada  Consumer Price Index (CPI) inversely weighted ...   
+9  1980-08-01  Canada  Consumer Price Index (CPI) inversely weighted ...   
+
+      Unit  Index Value  
+0  Percent          9.3  
+1  Percent          9.4  
+2  Percent          9.3  
+3  Percent          9.4  
+4  Percent          9.3  
+5  Percent          9.1  
+6  Percent          9.1  
+7  Percent          9.3  
+8  Percent          9.5  
+9  Percent          9.7   
+
+
+Table name: housing_price_index_cleaned.csv 
+
+Column names:          Date  Total (House And Land)  House Only  Land Only
+0  1981-01-01                    38.2        36.1       40.6
+1  1981-02-01                    38.7        36.5       41.0
+2  1981-03-01                    39.3        37.3       41.1
+3  1981-04-01                    39.9        38.1       41.2
+4  1981-05-01                    40.6        38.9       41.5
+5  1981-06-01                    40.8        39.1       41.6
+6  1981-07-01                    40.8        39.2       41.6
+7  1981-08-01                    40.6        39.0       41.5
+8  1981-09-01                    40.4        39.0       40.9
+9  1981-10-01                    40.3        38.8       40.9 
+
+
+Table name: office_realestate_index_cleaned.csv 
+
+Column names:          Date                                    Region    Property Type  \
+0  1981-01-01  Seven census metropolitan area composite           Office   
+1  1981-01-01  Seven census metropolitan area composite        Warehouse   
+2  1981-01-01  Seven census metropolitan area composite  Shopping centre   
+3  1981-01-01  Seven census metropolitan area composite    Light factory   
+4  1981-01-01  Seven census metropolitan area composite           School   
+5  1981-01-01                      Halifax, Nova Scotia           Office   
+6  1981-01-01                      Halifax, Nova Scotia           Office   
+7  1981-01-01                      Halifax, Nova Scotia           Office   
+8  1981-01-01                      Halifax, Nova Scotia           Office   
+9  1981-01-01                      Halifax, Nova Scotia           Office   
+
+              Unit  Index Value  
+0  Index, 2002=100         58.4  
+1  Index, 2002=100         53.3  
+2  Index, 2002=100         59.3  
+3  Index, 2002=100         50.1  
+4  Index, 2002=100         56.1  
+5  Index, 2002=100         66.6  
+6  Index, 2002=100         71.8  
+7  Index, 2002=100         77.2  
+8  Index, 2002=100         50.4  
+9  Index, 2002=100         49.7   
+
+
+Table name: real_estate_numbers_cleaned.csv 
+
+Column names:      Ref Date     Geo           Dguid    Housing Estimates  \
+0  1955-01-01  Canada  2016A000011124       Housing starts   
+1  1955-01-01  Canada  2016A000011124       Housing starts   
+2  1955-01-01  Canada  2016A000011124       Housing starts   
+3  1955-01-01  Canada  2016A000011124       Housing starts   
+4  1955-01-01  Canada  2016A000011124       Housing starts   
+5  1955-01-01  Canada  2016A000011124       Housing starts   
+6  1955-01-01  Canada  2016A000011124  Housing completions   
+7  1955-01-01  Canada  2016A000011124  Housing completions   
+8  1955-01-01  Canada  2016A000011124  Housing completions   
+9  1955-01-01  Canada  2016A000011124  Housing completions   
+
+                     Type Of Unit    Uom  Uom Id Scalar Factor  Scalar Id  \
+0                     Total units  Units     300        units           0   
+1                 Single-detached  Units     300        units           0   
+2                       Multiples  Units     300        units           0   
+3                   Semi-detached  Units     300        units           0   
+4                             Row  Units     300        units           0   
+5  Apartment and other unit types  Units     300        units           0   
+6                     Total units  Units     300        units           0   
+7                 Single-detached  Units     300        units           0   
+8                       Multiples  Units     300        units           0   
+9                   Semi-detached  Units     300        units           0   
+
+    Vector Coordinate   Value  Decimals  
+0  v730579      1.1.1  138276         0  
+1  v730524      1.1.2   99003         0  
+2  v730568      1.1.4   39273         0  
+3  v730535      1.1.3   10606         0  
+4  v730546      1.1.5    1909         0  
+5  v730557      1.1.6   26758         0  
+6  v732453      1.3.1  127929         0  
+7  v732398      1.3.2   90553         0  
+8  v732442      1.3.4   37376         0  
+9  v732409      1.3.3    8278         0   
+
+
+Table name: weekly_earnings_cleaned.csv 
+
+Column names:     Sid                                    Id  Position           Created At  \
+0  5554  8D0D0120-53D5-4A3D-B68F-D5BAFA1B9F24      5554  2015-06-29 17:37:24   
+1  5555  B8156EED-2420-4B71-A56C-57DED1FA7CEC      5555  2015-06-29 17:37:24   
+2  5556  A8D7795E-40FA-4923-AB52-CA8536DAAD7A      5556  2015-06-29 17:37:24   
+3  5557  8373DAD3-2886-4DAD-AFE8-84DB8C0F414E      5557  2015-06-29 17:37:24   
+4  5558  05DB3E97-35EC-4F75-891B-3F6C696CDEE0      5558  2015-06-29 17:37:24   
+5  5559  9F6DC880-A4F1-4149-A43F-23E9E9BF2270      5559  2015-06-29 17:37:24   
+6  5560  0F6988BE-1D70-4546-A854-15C677B99316      5560  2015-06-29 17:37:24   
+7  5561  6BE8C5BD-E455-4573-A299-F41CC57DB7DB      5561  2015-06-29 17:37:24   
+8  5562  9C61FF04-EA5F-4548-9E21-BA4F29B1E325      5562  2015-06-29 17:37:24   
+9  5563  2538F70D-9A3D-45F0-A6BE-4A3744AF6372      5563  2015-06-29 17:37:24   
+
+   Created Meta           Updated At  Updated Meta        When  \
+0        710753  2015-06-29 17:37:24        710753  2001-01-01   
+1        710753  2015-06-29 17:37:24        710753  2001-02-01   
+2        710753  2015-06-29 17:37:24        710753  2001-03-01   
+3        710753  2015-06-29 17:37:24        710753  2001-04-01   
+4        710753  2015-06-29 17:37:24        710753  2001-05-01   
+5        710753  2015-06-29 17:37:24        710753  2001-06-01   
+6        710753  2015-06-29 17:37:24        710753  2001-07-01   
+7        710753  2015-06-29 17:37:24        710753  2001-08-01   
+8        710753  2015-06-29 17:37:24        710753  2001-09-01   
+9        710753  2015-06-29 17:37:24        710753  2001-10-01   
+
+                                               Naics  Alberta  \
+0  Industrial aggregate excluding unclassified bu...   670.54   
+1  Industrial aggregate excluding unclassified bu...   670.52   
+2  Industrial aggregate excluding unclassified bu...   668.49   
+3  Industrial aggregate excluding unclassified bu...   671.71   
+4  Industrial aggregate excluding unclassified bu...   664.45   
+5  Industrial aggregate excluding unclassified bu...   675.72   
+6  Industrial aggregate excluding unclassified bu...   672.96   
+7  Industrial aggregate excluding unclassified bu...   673.60   
+8  Industrial aggregate excluding unclassified bu...   692.18   
+9  Industrial aggregate excluding unclassified bu...   693.13   
+
+   Britishcolumbia  Canada  Manitoba  Newbrunswick  Newfoundlandandlabrador  \
+0           660.48  658.02    578.95        584.75                   594.00   
+1           659.33  655.79    580.63        585.11                   591.92   
+2           654.07  655.88    578.67        584.13                   593.47   
+3           657.15  654.09    576.36        580.92                   591.96   
+4           653.23  650.02    571.84        578.44                   588.19   
+5           661.49  658.06    588.66        582.79                   591.85   
+6           655.63  655.38    586.31        580.57                   590.91   
+7           653.55  655.54    592.32        602.85                   593.53   
+8           659.15  660.50    587.73        594.41                   600.95   
+9           664.43  661.11    587.39        595.74                   596.49   
+
+   Novascotia  Ontario  Princeedwardisland  Quebec  Saskatchewan  
+0      571.28   698.57              535.65  624.81        596.53  
+1      570.06   693.69              532.02  623.93        595.09  
+2      570.70   697.08              534.71  622.94        589.09  
+3      568.70   693.73              522.50  619.12        589.37  
+4      567.96   688.27              522.31  618.90        587.41  
+5      576.42   697.37              529.47  623.50        597.65  
+6      576.16   696.65              509.55  619.98        590.31  
+7      579.54   691.09              534.47  625.05        598.63  
+8      576.75   699.48              531.89  622.17        600.95  
+9      582.77   697.06              535.24  623.80        603.69   
+
+

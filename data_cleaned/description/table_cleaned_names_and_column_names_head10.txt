@@ -1,0 +1,189 @@
+Table name: consumer_index_cleaned.csv 
+
+Column names:   Date (Month) C.I. Region (C.I.) (Canada Only)  \
+0        1979-11-01                      Canada   
+1        1979-12-01                      Canada   
+2        1980-01-01                      Canada   
+3        1980-02-01                      Canada   
+4        1980-03-01                      Canada   
+5        1980-04-01                      Canada   
+6        1980-05-01                      Canada   
+7        1980-06-01                      Canada   
+8        1980-07-01                      Canada   
+9        1980-08-01                      Canada   
+
+                                     Measures (C.I.) Measure Baseline (C.I.)  \
+0  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+1  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+2  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+3  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+4  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+5  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+6  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+7  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+8  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+9  Consumer Price Index (CPI) inversely weighted ...                 Percent   
+
+   Consumer Index  
+0             9.3  
+1             9.4  
+2             9.3  
+3             9.4  
+4             9.3  
+5             9.1  
+6             9.1  
+7             9.3  
+8             9.5  
+9             9.7   
+
+
+Table name: housing_price_index_pivot_cleaned.csv 
+
+Column names:   Date (Month) H.P.I.  Property Type (H.P.I.)  H.P.I.
+0          1981-01-01  Total (House And Land)    38.2
+1          1981-02-01  Total (House And Land)    38.7
+2          1981-03-01  Total (House And Land)    39.3
+3          1981-04-01  Total (House And Land)    39.9
+4          1981-05-01  Total (House And Land)    40.6
+5          1981-06-01  Total (House And Land)    40.8
+6          1981-07-01  Total (House And Land)    40.8
+7          1981-08-01  Total (House And Land)    40.6
+8          1981-09-01  Total (House And Land)    40.4
+9          1981-10-01  Total (House And Land)    40.3 
+
+
+Table name: monthly_earnings_pivot_cleaned.csv 
+
+Column names:   Date (Month) M.E. Province (inc. Canada) (M.E.)  Monthly Earnings
+0        2001-01-01                       Alberta       2969.534286
+1        2001-02-01                       Alberta       2682.080000
+2        2001-03-01                       Alberta       2960.455714
+3        2001-04-01                       Alberta       2878.757143
+4        2001-05-01                       Alberta       2942.564286
+5        2001-06-01                       Alberta       2895.942857
+6        2001-07-01                       Alberta       2980.251429
+7        2001-08-01                       Alberta       2983.085714
+8        2001-09-01                       Alberta       2966.485714
+9        2001-10-01                       Alberta       3069.575714 
+
+
+Table name: office_realestate_index_cleaned.csv 
+
+Column names:   Date (Quarter) O.R.I.                Region(O.R.I.) (city prov)  \
+0            1981-01-01  Seven census metropolitan area composite   
+1            1981-01-01  Seven census metropolitan area composite   
+2            1981-01-01  Seven census metropolitan area composite   
+3            1981-01-01  Seven census metropolitan area composite   
+4            1981-01-01  Seven census metropolitan area composite   
+5            1981-01-01                      Halifax, Nova Scotia   
+6            1981-01-01                      Halifax, Nova Scotia   
+7            1981-01-01                      Halifax, Nova Scotia   
+8            1981-01-01                      Halifax, Nova Scotia   
+9            1981-01-01                      Halifax, Nova Scotia   
+
+  Property Type(O.R.I.) Measure Baseline (O.R.I.)  O.R.I.  
+0                Office           Index, 2002=100    58.4  
+1             Warehouse           Index, 2002=100    53.3  
+2       Shopping centre           Index, 2002=100    59.3  
+3         Light factory           Index, 2002=100    50.1  
+4                School           Index, 2002=100    56.1  
+5                Office           Index, 2002=100    66.6  
+6                Office           Index, 2002=100    71.8  
+7                Office           Index, 2002=100    77.2  
+8                Office           Index, 2002=100    50.4  
+9                Office           Index, 2002=100    49.7   
+
+
+Table name: real_estate_numbers_cleaned.csv 
+
+Column names:   Date (Year) R.E.N. Province (R.E.N.) (inc. Canada)           Dguid  \
+0         1955-01-01                          Canada  2016A000011124   
+1         1955-01-01                          Canada  2016A000011124   
+2         1955-01-01                          Canada  2016A000011124   
+3         1955-01-01                          Canada  2016A000011124   
+4         1955-01-01                          Canada  2016A000011124   
+5         1955-01-01                          Canada  2016A000011124   
+6         1955-01-01                          Canada  2016A000011124   
+7         1955-01-01                          Canada  2016A000011124   
+8         1955-01-01                          Canada  2016A000011124   
+9         1955-01-01                          Canada  2016A000011124   
+
+  Housing Estimates (R.E.N)                    Type Of Unit    Uom  Uom Id  \
+0            Housing starts                     Total units  Units     300   
+1            Housing starts                 Single-detached  Units     300   
+2            Housing starts                       Multiples  Units     300   
+3            Housing starts                   Semi-detached  Units     300   
+4            Housing starts                             Row  Units     300   
+5            Housing starts  Apartment and other unit types  Units     300   
+6       Housing completions                     Total units  Units     300   
+7       Housing completions                 Single-detached  Units     300   
+8       Housing completions                       Multiples  Units     300   
+9       Housing completions                   Semi-detached  Units     300   
+
+  Scalar Factor  Scalar Id   Vector Coordinate  Real Estate Number  Decimals  
+0        units           0  v730579      1.1.1              138276         0  
+1        units           0  v730524      1.1.2               99003         0  
+2        units           0  v730568      1.1.4               39273         0  
+3        units           0  v730535      1.1.3               10606         0  
+4        units           0  v730546      1.1.5                1909         0  
+5        units           0  v730557      1.1.6               26758         0  
+6        units           0  v732453      1.3.1              127929         0  
+7        units           0  v732398      1.3.2               90553         0  
+8        units           0  v732442      1.3.4               37376         0  
+9        units           0  v732409      1.3.3                8278         0   
+
+
+Table name: real_estate_prices_all_pivot_cleaned_benchmark.csv 
+
+Column names:   Date (Month) R.E.P. Benchmark Region (R.E.P)(inc. Aggregate) Benchmark  \
+0                    2005-01-01                                Aggregate   
+1                    2005-02-01                                Aggregate   
+2                    2005-03-01                                Aggregate   
+3                    2005-04-01                                Aggregate   
+4                    2005-05-01                                Aggregate   
+5                    2005-06-01                                Aggregate   
+6                    2005-07-01                                Aggregate   
+7                    2005-08-01                                Aggregate   
+8                    2005-09-01                                Aggregate   
+9                    2005-10-01                                Aggregate   
+
+  Housing Type (R.E.P.) Benchmark  Real Estate Price Benchmark  
+0                       Apartment                     190600.0  
+1                       Apartment                     192300.0  
+2                       Apartment                     193200.0  
+3                       Apartment                     194600.0  
+4                       Apartment                     196100.0  
+5                       Apartment                     198000.0  
+6                       Apartment                     199700.0  
+7                       Apartment                     200700.0  
+8                       Apartment                     202700.0  
+9                       Apartment                     203700.0   
+
+
+Table name: real_estate_prices_all_pivot_cleaned_hpi.csv 
+
+Column names:   Date (Month) R.E.P. HPI Region (R.E.P)(inc. Aggregate) HPI  \
+0              2005-01-01                          Aggregate   
+1              2005-02-01                          Aggregate   
+2              2005-03-01                          Aggregate   
+3              2005-04-01                          Aggregate   
+4              2005-05-01                          Aggregate   
+5              2005-06-01                          Aggregate   
+6              2005-07-01                          Aggregate   
+7              2005-08-01                          Aggregate   
+8              2005-09-01                          Aggregate   
+9              2005-10-01                          Aggregate   
+
+  Housing Type (R.E.P.) HPI  Real Estate Price HPI  
+0                 Apartment                  100.0  
+1                 Apartment                  100.9  
+2                 Apartment                  101.4  
+3                 Apartment                  102.1  
+4                 Apartment                  102.9  
+5                 Apartment                  103.9  
+6                 Apartment                  104.8  
+7                 Apartment                  105.3  
+8                 Apartment                  106.4  
+9                 Apartment                  106.9   
+
+
